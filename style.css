@@ -63,7 +63,7 @@
 
 .buttonText{
 	font-family: Verdana,Geneva,sans-serif;
-	font-size: 25;
+	font-size: 25px;
 }
 
 .budget{
@@ -79,6 +79,7 @@
 	font-size: 30;
 	margin-right: 5%;
 	margin-left: 5%;
+	font-size: 25px;
 }
 
 .progressBox{
@@ -95,6 +96,7 @@
 
 .progress{	
 	width: 65%;
+	max-width: 100%;
 	height: 70px;
 	background-color: #F9C224;
 	border: 0px solid #dddddd;

@@ -1,0 +1,114 @@
+.wrapper{
+	width: 42%;
+	margin-left: 2%;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex2{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-top: 2%;
+}
+
+.box{
+  height: 180px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.addButton{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70px;
+	width: 43%;
+	background-color: #19BB29;
+   border: 1px solid #dddddd;
+   border-radius: 15px;
+   margin-right: 5%;
+   color: white;
+   
+}
+
+.input input{
+	font-family: Verdana,Geneva,sans-serif;
+	border: 0;
+	width: 80%;
+	height: 80%;
+	line-height: 1;
+	font-size: 30px;
+}
+
+.input{
+	font-family: Verdana,Geneva,sans-serif;
+	width: 35%;
+	margin-right: 5%;
+	height: 38px;
+	margin-left: 8%;
+	padding: 14px 12px;
+	font-size: 30px;
+	line-height: 1;
+	border: 2px solid #dddddd;
+	border-radius: 10px;
+	/*background-color: #19BB29;*/
+}
+
+.buttonText{
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 25;
+}
+
+.budget{
+	font-family: Verdana,Geneva,sans-serif;
+	font-weight: bold;
+	margin-right: 5%;
+	margin-left: 5%;
+	color: #A1A1A1;
+}
+
+.contributions{
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 30;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.progressBox{
+	margin-top: 2%;
+	margin-left: 4%;	
+	width: 92%;
+	height: 70px;
+	background-color: #f1f1f1;
+	border: 0px solid #dddddd;
+	border-radius: 12px;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 1px 10px rgba(10, 0, 0, 0.05);
+}
+
+.progress{	
+	width: 65%;
+	height: 70px;
+	background-color: #F9C224;
+	border: 0px solid #dddddd;
+	border-radius: 12px 0 0 12px;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 1px 10px rgba(10, 0, 0, 0.05);
+}
+
+.strokeme
+{
+    color: white;
+    text-shadow:
+    -1px -1px 0 grey,
+    1px -1px 0 grey,
+    -1px 1px 0 grey,
+    1px 1px 0 grey;  
+}
